@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  
+  <processing-directives>
+    <!--允许修改文件-->
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+  <schedule>
+    <job>
+      <name>testjob</name>
+      <group>group1</group>
+      <description>This is testjob</description>
+      <!--配置job类名和类库名称-->
+      <job-type>QuartzTest.CustomerJob.SendMessage,QuartzTest</job-type>
+      
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>sendtrigger</name>
+        <group>group1</group>
+        <job-name>testjob</job-name>
+        <job-group>group1</job-group>
+        <cron-expression>0/5 * * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    
+    
+    <!--<job>
+      <name>UpdateInventoryJob</name>
+      <group>Update</group>
+      <description>定时更新商品库存</description>
+      <job-type>TopshelfAndQuartz.UpdateInventoryJob,TopshelfAndQuartz</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>UpdateInventoryTrigger</name>
+        <group>Update</group>
+        <job-name>UpdateInventoryJob</job-name>
+        <job-group>Update</job-group>
+        <cron-expression>0 0/1 * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+  </schedule>
+</job-scheduling-data>

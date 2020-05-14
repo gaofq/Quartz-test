@@ -1,0 +1,44 @@
+﻿正在安装程序集“E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.InstallLog
+   assemblypath = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe
+正在安装服务 ServiceTest...
+正在日志 Application 中创建 EventLog 源 ServiceTest...
+正在回滚程序集“E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.InstallLog
+   assemblypath = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe
+正在将事件日志还原到源 ServiceTest 的前一状态。
+正在安装程序集“E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.InstallLog
+   assemblypath = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe
+正在安装服务 ServiceTest...
+正在日志 Application 中创建 EventLog 源 ServiceTest...
+正在回滚程序集“E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.InstallLog
+   assemblypath = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe
+正在将事件日志还原到源 ServiceTest 的前一状态。
+正在安装程序集“E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.InstallLog
+   assemblypath = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe
+正在安装程序集“E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.InstallLog
+   assemblypath = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe
+正在回滚程序集“E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.InstallLog
+   assemblypath = E:\软谋课程\11Quartz定时任务\QuartzTest\QuartzService\bin\Debug\QuartzService.exe
+在 System.ServiceProcess.ServiceProcessInstaller 安装程序的“回退”阶段发生异常。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+在安装的“回退”阶段发生异常。将忽略该异常并继续回退。但是，在完成回退后计算机可能无法完全还原到它的初始状态。
